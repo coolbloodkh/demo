@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body {
+  background-color: darkblue;
+  color: whitesmoke;
+}
+
+.header {
+  padding: 25px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.header a {
+  padding: 5px;
+  background-color: darkcyan;
+  border-radius: 5px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.header a:hover {
+  background-color: darkgoldenrod;
+}
+
+.banner {
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.25);
+  background-image: url('./images/banner.avif');
+  background-position: center;
+  background-size: cover;
+}
+
+.banner h1 {
+  color: brown;
+  font-size: 48px;
+  padding-top: 250px;
+  text-align: center;
+  text-shadow: 0 0 10px darkgoldenrod;
+}
+
+#traditional-game {
+  text-align: center;
+  padding: 15px;
+}
+
+#sponsors {
+  text-align: center;
+  padding: 15ox;
+}
+
+#sponsors img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid grey;
+  margin: 15px;
+}
+
+.game {
+  width: 250px;
+  height: 325px;
+  border: 2px solid white;
+  display: inline-block;
+  overflow: hidden;
+  margin: 15px;
+}
+
+.game img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.section-title {
+  color: orange;
+  font-size: 32px;
+}
+
+.footer {
+  padding: 15px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.25);
+}
